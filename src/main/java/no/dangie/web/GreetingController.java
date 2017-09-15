@@ -19,8 +19,4 @@ public class GreetingController {
                 String.format(template, name));
     }
 
-    @GetMapping("/")
-    public String home() {
-        return "Hello World";
-    }
 }
